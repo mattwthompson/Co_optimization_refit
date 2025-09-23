@@ -1,7 +1,7 @@
 {
     "connection_options": {
         "server_address": "localhost",
-        "server_port": 8000
+        "server_port": 8131
     },
     "data_set_path": "training_set.json",
     "denominators": {

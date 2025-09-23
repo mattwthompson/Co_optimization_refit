@@ -14,7 +14,7 @@
 micromamba activate co-optimization-cuda
 
 python refit.py                                             	\
-    --port                      8171                    	\
+    --port                      8131                    	\
     --n-min-workers         	1                          	\
     --n-max-workers         	23                        	\
     --memory-per-worker     	4                           	\
