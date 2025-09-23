@@ -10,8 +10,8 @@ from openff.evaluator.backends import ComputeResources
 from openff.evaluator.backends.dask import DaskLocalCluster
 from openff.evaluator.server import EvaluatorServer
 
-tmpdir =os.environ["TMPDIR"]
-print(f"Working in TMPDIR: {tmpdir}")
+# tmpdir =os.environ["TMPDIR"]
+# print(f"Working in TMPDIR: {tmpdir}")
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 

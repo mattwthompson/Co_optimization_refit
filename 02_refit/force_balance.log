@@ -1,0 +1,294 @@
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/molecule.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+#======================================================================#
+#| [1m            Welcome to ForceBalance version 1.9.6! =D             [0m |#
+#| [1m                 Force Field Optimization System                  [0m |#
+#| [1m                                                                  [0m |#
+#| [1m                             Authors:                             [0m |#
+#| [1m                          Lee-Ping Wang                           [0m |#
+#| [1m                  Yudong Qiu, Keri A. McKiernan                   [0m |#
+#| [1m          Jeffrey R. Wagner, Hyesu Jang, Simon Boothroyd          [0m |#
+#| [1m          Arthur Vigil, Erik G. Brandt, John Stoppelman           [0m |#
+#| [1m                  Johnny Israeli, Matt Thompson                   [0m |#
+#======================================================================#
+
+                          [44m     [0m                                        
+                       [44m        [0m      [43m     [0m                              
+                    [44m        [0m   [44m  [0m    [43m         [0m                          
+                 [44m       [0m    [44m      [0m      [43m         [0m                       
+             [44m        [0m    [44m        [0m          [43m         [0m                    
+          [44m        [0m    [44m        [0m                 [43m        [0m                 
+       [44m        [0m    [44m       [0m                        [43m        [0m              
+    [44m        [0m   [44m        [0m                              [43m         [0m          
+   [44m      [0m   [44m        [0m               `.:+@@###@'          [43m         [0m       
+    [44m [0m    [44m        [0m          ,;'+###############.             [43m     [0m       
+      [44m        [0m         +################':`                    [43m [0m        
+      [44m     [0m              `.,,...####+.                                  
+                                ,#####      +##.               [44m   [0m   [44m   [0m
+ [43m    [0m                            #####      ######             [44m   [0m   [44m   [0m
+ [43m    [0m                ###'        ####'     :#####'             [44m   [0m   [44m   [0m
+ [43m    [0m                :####@      ####.    ,####'               [44m   [0m   [44m   [0m
+ [43m    [0m                 ######     ####    +###+                 [44m   [0m   [44m   [0m
+ [43m    [0m                  #####     ####   ###;                   [44m   [0m   [44m   [0m
+ [43m    [0m                   :##      ####  ++`                     [44m   [0m   [44m   [0m
+ [43m    [0m                            ####``..:;+##############+`   [44m   [0m   [44m   [0m
+ [43m    [0m             .,:;;'++##################################`  [44m   [0m   [44m   [0m
+ [43m    [0m    `############################++++''';;;;;;;;;;;'';    [44m   [0m   [44m   [0m
+ [43m    [0m      ,########':,.``       ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+ [43m    [0m                            ####                          [44m   [0m   [44m   [0m
+      [44m    [0m                       ####                                   
+     [44m        [0m                    ####                                   
+    [44m [0m    [44m       [0m                 ####                       [43m     [0m       
+   [44m     [0m    [44m        [0m             ####                    [43m        [0m       
+   [44m        [0m    [44m        [0m          ###                  [43m         [0m         
+      [44m        [0m    [44m        [0m        +`               [43m        [0m             
+          [44m        [0m   [44m        [0m                   [43m        [0m                
+             [44m        [0m   [44m         [0m           [43m         [0m                   
+                [44m        [0m    [44m       [0m      [43m         [0m                      
+                   [44m        [0m    [44m   [0m    [43m        [0m                          
+                      [44m        [0m       [43m      [0m                             
+                          [44m      [0m      [43m  [0m                                
+                             [44m  [0m                                         
+
+Reading options from file: optimize.in
+#========================================================#
+#| [95m  Options at their default values are not printed   [0m |#
+#| [95m        Use 'verbose_options True' to Enable        [0m |#
+#========================================================#
+Reading force field from file: force_field_tagged.offxml
+#=========================================================#
+#| [92m Starting parameter indices, physical values and IDs [0m |#
+#=========================================================#
+   0 [  1.5113e+00 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   1 [  4.8898e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   2 [  1.0895e+00 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   3 [  7.5053e+02 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   4 [  9.7018e-01 ] : Bonds/Bond/length/[#8:1]-[#1:2]
+   5 [  1.1235e+03 ] : Bonds/Bond/k/[#8:1]-[#1:2]
+   6 [  1.0970e+02 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   7 [  1.3716e+02 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   8 [  1.0822e+02 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   9 [  8.8585e+01 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+  10 [  1.0693e+02 ] : Angles/Angle/angle/[*:1]-[#8:2]-[*:3]
+  11 [  1.4613e+02 ] : Angles/Angle/k/[*:1]-[#8:2]-[*:3]
+  12 [  2.3904e-01 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [  8.8744e-02 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [  1.5779e-02 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+  15 [  1.4842e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+  16 [  1.0884e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+  17 [  1.8967e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+-----------------------------------------------------------
+#=========================================================#
+#| [91m Rescaling Factors by Type (Lower Takes Precedence): [0m |#
+#=========================================================#
+   ProperTorsions/Proper/k1             : 2.39039e-01
+   Angles/Angle/k                       : 1.00000e+02
+   Angles/Angle/angle                   : 5.00000e+00
+   Bonds/Bond/k                         : 1.00000e+02
+   Bonds/Bond/length                    : 1.00000e-01
+   ProperTorsions/Proper/k              : 5.00000e+00
+   ImproperTorsions/Improper/k          : 5.00000e+00
+   vdW/Atom/epsilon                     : 1.00000e-01
+   vdW/Atom/rmin_half                   : 1.00000e+00
+-----------------------------------------------------------
+#========================================================#
+#| [91m   Rescaling Types / Factors by Parameter Number:   [0m |#
+#========================================================#
+   0 [    Bonds/Bond/length             : 1.00000e-01 ] : Bonds/Bond/length/[#6X4:1]-[#6X4:2]
+   1 [    Bonds/Bond/k                  : 1.00000e+02 ] : Bonds/Bond/k/[#6X4:1]-[#6X4:2]
+   2 [    Bonds/Bond/length             : 1.00000e-01 ] : Bonds/Bond/length/[#6X4:1]-[#1:2]
+   3 [    Bonds/Bond/k                  : 1.00000e+02 ] : Bonds/Bond/k/[#6X4:1]-[#1:2]
+   4 [    Bonds/Bond/length             : 1.00000e-01 ] : Bonds/Bond/length/[#8:1]-[#1:2]
+   5 [    Bonds/Bond/k                  : 1.00000e+02 ] : Bonds/Bond/k/[#8:1]-[#1:2]
+   6 [    Angles/Angle/angle            : 5.00000e+00 ] : Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]
+   7 [    Angles/Angle/k                : 1.00000e+02 ] : Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]
+   8 [    Angles/Angle/angle            : 5.00000e+00 ] : Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]
+   9 [    Angles/Angle/k                : 1.00000e+02 ] : Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]
+  10 [    Angles/Angle/angle            : 5.00000e+00 ] : Angles/Angle/angle/[*:1]-[#8:2]-[*:3]
+  11 [    Angles/Angle/k                : 1.00000e+02 ] : Angles/Angle/k/[*:1]-[#8:2]-[*:3]
+  12 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  13 [    ProperTorsions/Proper/k       : 5.00000e+00 ] : ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  14 [    vdW/Atom/epsilon              : 1.00000e-01 ] : vdW/Atom/epsilon/[#1:1]-[#6X4]
+  15 [    vdW/Atom/rmin_half            : 1.00000e+00 ] : vdW/Atom/rmin_half/[#1:1]-[#6X4]
+  16 [    vdW/Atom/epsilon              : 1.00000e-01 ] : vdW/Atom/epsilon/[#6X4:1]
+  17 [    vdW/Atom/rmin_half            : 1.00000e+00 ] : vdW/Atom/rmin_half/[#6X4:1]
+----------------------------------------------------------
+#========================================================#
+#| [92m               Setup for force field                [0m |#
+#========================================================#
+fnms                      ['force_field_tagged.offxml'] 
+priors                    OrderedDict([('Angles/Angle/k', 100.0), ('Angles/Angle/angle', 5.0), ('Bonds/Bond/k', 100.0), ('Bonds/Bond/length', 0.1), ('ProperTorsions/Proper/k', 5.0), ('ImproperTorsions/Improper/k', 5.0), ('vdW/Atom/epsilon', 0.1), ('vdW/Atom/rmin_half', 1.0)]) 
+----------------------------------------------------------
+targets/pure_data/options.json
+#========================================================#
+#| [92m             Loaded experimental data.              [0m |#
+#========================================================#
+#========================================================#
+#| [92m     Reference CCCCCCCC{solv}{x=1.000000} data      [0m |#
+#========================================================#
+Density 298.15 kelvin-101.325 kilopascal 698.7500000000001 kilogram / meter ** 3+/-9.999999999999998 kilogram / meter ** 3 
+----------------------------------------------------------
+#========================================================#
+#| [92m            Setup for target pure_data :            [0m |#
+#========================================================#
+name                      pure_data 
+type                      EVALUATOR_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/pure_data 
+evaluator_input           options.json 
+----------------------------------------------------------
+#========================================================#
+#| [92m        Setup for target torsion-137755383 :        [0m |#
+#========================================================#
+name                      torsion-137755383 
+type                      TORSIONPROFILE_SMIRNOFF 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/torsion-137755383 
+----------------------------------------------------------
+#========================================================#
+#| [92m         Setup for target opt-geo-batch-0 :         [0m |#
+#========================================================#
+name                      opt-geo-batch-0 
+type                      OPTGEOTARGET_SMIRNOFF 
+weight                    0.01 
+h                         0.01 
+backup                    False 
+tgtdir                    targets/opt-geo-batch-0 
+----------------------------------------------------------
+#========================================================#
+#| [92m        SMIRNOFF Parameter Coverage Analysis        [0m |#
+#========================================================#
+Reading optgeo options from file: targets/opt-geo-batch-0/optgeo_options.txt
+Force field assignment data written to /dfs9/dmobley-lab/mattt2/Co_optimization_refit/02_refit/smirnoff_parameter_assignments.json
+ idx Parameter                                                                                                   Count
+----------------------------------------------------------------------------------------------------------------------
+   0 Bonds/Bond/length/[#6X4:1]-[#6X4:2]                                                                  :         10
+   1 Bonds/Bond/k/[#6X4:1]-[#6X4:2]                                                                       :         10
+   2 Bonds/Bond/length/[#6X4:1]-[#1:2]                                                                    :         22
+   3 Bonds/Bond/k/[#6X4:1]-[#1:2]                                                                         :         22
+   4 Bonds/Bond/length/[#8:1]-[#1:2]                                                                      :          2
+   5 Bonds/Bond/k/[#8:1]-[#1:2]                                                                           :          2
+   6 Angles/Angle/angle/[*:1]~[#6X4:2]-[*:3]                                                              :         36
+   7 Angles/Angle/k/[*:1]~[#6X4:2]-[*:3]                                                                  :         36
+   8 Angles/Angle/angle/[#1:1]-[#6X4:2]-[#1:3]                                                            :         12
+   9 Angles/Angle/k/[#1:1]-[#6X4:2]-[#1:3]                                                                :         12
+  10 Angles/Angle/angle/[*:1]-[#8:2]-[*:3]                                                                :          2
+  11 Angles/Angle/k/[*:1]-[#8:2]-[*:3]                                                                    :          2
+  12 ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]                                             :         28
+  13 ProperTorsions/Proper/k1/[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]                                           :         22
+  14 vdW/Atom/epsilon/[#1:1]-[#6X4]                                                                       :         20
+  15 vdW/Atom/rmin_half/[#1:1]-[#6X4]                                                                     :         20
+  16 vdW/Atom/epsilon/[#6X4:1]                                                                            :         11
+  17 vdW/Atom/rmin_half/[#6X4:1]                                                                          :         11
+SMIRNOFF Parameter Coverage Analysis result: 18/18 parameters are covered.
+----------------------------------------------------------------------------------------------------------------------
+Using parabolic regularization (Gaussian prior) with strength 1.0e+00 (+), 0.0e+00 (x)
+2025/09/23 12:34:59.67 work_queue_python[1438165]tcp: listening on port 55481
+2025/09/23 19:34:59.67 work_queue_python[1438165]wq: Using default fast abort multiplier for 'default'.
+2025/09/23 19:34:59.67 work_queue_python[1438165]wq: workers connections -- known: 0, connecting: 0, available: 0.
+2025/09/23 19:34:59.67 work_queue_python[1438165]wq: Work Queue is listening on port 55481.
+Work Queue is listening on 55481
+#========================================================#
+#| [92m           Setup for objective function :           [0m |#
+#========================================================#
+penalty_additive          1.0 
+normalize_weights         False 
+wq_port                   55481 
+asynchronous              True 
+----------------------------------------------------------
+#========================================================#
+#| [92m                Setup for optimizer                 [0m |#
+#========================================================#
+jobtype                   OPTIMIZE 
+trust0                    -1.0 
+mintrust                  0.05 
+eps                       0.01 
+h                         0.01 
+h0                        0.01 
+convergence_objective     0.1 
+convergence_step          0.01 
+convergence_gradient      0.1 
+adapt_fac                 0.2 
+adapt_damp                1.0 
+print_hess                True 
+err_tol                   1.0 
+search_tol                0.1 
+backup                    False 
+retain_micro_outputs      False 
+input_file                optimize.in 
+criteria                  2 
+----------------------------------------------------------
+Calculation started at 2025-09-23 07:34 PM
+#========================================================#
+#| [1m                  Main Optimizer                    [0m |#
+#| [1m  Newton-Raphson Method (Hessian Diagonal Search)   [0m |#
+#| [1m                                                    [0m |#
+#| [1m       [0mConvergence criteria (2 of 3 needed):        [0m |#
+#| [1m          [0mObjective Function  : 1.000e-01           [0m |#
+#| [1m          [0mNorm of Gradient    : 1.000e-01           [0m |#
+#| [1m          [0mParameter step size : 1.000e-02           [0m |#
+#========================================================#
+#========================================================#
+#|       Color Key for Objective Function -=X2=-        |#
+#|  [1mBold[0m = Initial step                                 |#
+#|  [92mGreen = Current lowest value of objective function[0m  |#
+#|  [91mRed = Objective function rises, step rejected[0m       |#
+#|  [0mNo color = Not at the lowest value                  |#
+#========================================================#
+#========================================================#
+#| [94m     Iteration 0: Evaluating objective function     [0m |#
+#| [94m        and derivatives through second order        [0m |#
+#========================================================#
+Traceback (most recent call last):
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/bin/ForceBalance.py", line 45, in Run_ForceBalance
+    optimizer.Run()
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/optimizer.py", line 322, in Run
+    xk = self.OptTab[self.jobtype]()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/optimizer.py", line 951, in NewtonRaphson
+    return self.MainOptimizer(b_BFGS=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/optimizer.py", line 496, in MainOptimizer
+    data        = self.Objective.Full(xk,Ord,verbose=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/objective.py", line 314, in Full
+    Objective = self.Target_Terms(vals, Order, verbose, customdir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/objective.py", line 217, in Target_Terms
+    Tgt.stage(mvals, AGrad = Order >= 1, AHess = Order >= 2, customdir=customdir)
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/target.py", line 653, in stage
+    self.submit_jobs(mvals, AGrad, AHess)
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/forcebalance/evaluator_io.py", line 513, in submit_jobs
+    self._pending_estimate_request, _ = self._client.request_estimate(
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/openff/evaluator/client/client.py", line 710, in request_estimate
+    request_id, error = self._send_calculations_to_server(submission)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/openff/evaluator/client/client.py", line 812, in _send_calculations_to_server
+    connection.connect(connection_settings)
+ConnectionRefusedError: [Errno 111] Connection refused
+2025/09/23 19:35:00.85 work_queue_python[1438165]wq: workers connections -- known: 0, connecting: 0, available: 0.
+2025/09/23 19:35:00.85 work_queue_python[1438165]wq: Advertising manager status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2025/09/23 19:35:00.85 work_queue_python[1438165]debug: compressed update message from 1823 to 692 bytes
+2025/09/23 19:35:00.85 work_queue_python[1438165]dns: looking up name catalog.cse.nd.edu
+2025/09/23 19:35:00.85 work_queue_python[1438165]dns: catalog.cse.nd.edu is 129.74.152.177
+2025/09/23 19:35:00.85 work_queue_python[1438165]debug: sending update via tcp to catalog.cse.nd.edu(129.74.152.177):9098 (background pid 1438191)
+2025/09/23 19:35:00.86 work_queue_python[1438192]debug: sending update via tcp to catalog.cse.nd.edu(129.74.152.177):9098
+2025/09/23 19:35:00.86 work_queue_python[1438192]tcp: connecting to 129.74.152.177 port 9098
+2025/09/23 19:35:00.87 work_queue_python[1438165]dns: looking up name backup-catalog.cse.nd.edu
+2025/09/23 19:35:00.87 work_queue_python[1438165]dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2025/09/23 19:35:00.87 work_queue_python[1438165]debug: sending update via tcp to backup-catalog.cse.nd.edu(129.74.247.43):9098 (background pid 1438193)
+2025/09/23 19:35:00.88 work_queue_python[1438194]debug: sending update via tcp to backup-catalog.cse.nd.edu(129.74.247.43):9098
+2025/09/23 19:35:00.88 work_queue_python[1438194]tcp: connecting to 129.74.247.43 port 9098
+2025/09/23 19:35:00.92 work_queue_python[1438192]tcp: made connection to 129.74.152.177 port 9098
+2025/09/23 19:35:00.92 work_queue_python[1438192]tcp: disconnected from 129.74.152.177 port 9098
+2025/09/23 19:35:00.94 work_queue_python[1438194]tcp: made connection to 129.74.247.43 port 9098
+2025/09/23 19:35:00.94 work_queue_python[1438194]tcp: disconnected from 129.74.247.43 port 9098
