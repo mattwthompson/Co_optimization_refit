@@ -1,0 +1,704 @@
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/foyer/forcefield.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import iter_entry_points, resource_filename
+2025-09-23 15:06:47 INFO     Renamed existing force_balance.log to force_balance_4.log.
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-23 15:06:48 INFO     Server listening at port 8131
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-23 15:06:55 INFO     Received estimation request from ('127.0.0.1', 32882)
+2025-09-23 15:06:55 INFO     Submission e2a3e4cd8f724b7ea8fc23330c4c2d95 received
+2025-09-23 15:06:55 INFO     Launching batch 61fba9997fc14a198762094c0ff1be2b using the SimulationLayer layer
+2025-09-23 15:06:55 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+2025-09-23 15:40:01 INFO     Finished server request 61fba9997fc14a198762094c0ff1be2b
+2025-09-23 22:26:29 INFO     Received estimation request from ('127.0.0.1', 48402)
+2025-09-23 22:26:29 INFO     Submission 9980e03b4ea345d3ad9dedbbf973d442 received
+2025-09-23 22:26:29 INFO     Launching batch 26b91c227c7f426dad9ff91ba252dc71 using the SimulationLayer layer
+2025-09-23 22:26:29 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-23 22:46:01 INFO     Finished server request 26b91c227c7f426dad9ff91ba252dc71
+2025-09-23 22:46:59 INFO     Received estimation request from ('127.0.0.1', 44266)
+2025-09-23 22:46:59 INFO     Submission 34ab78797df94c1a9c99b3b42f88278b received
+2025-09-23 22:46:59 INFO     Launching batch 6e227fa142f648849b9570c9424c5759 using the SimulationLayer layer
+2025-09-23 22:46:59 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-23 23:15:19 INFO     Finished server request 6e227fa142f648849b9570c9424c5759
+2025-09-23 23:17:31 INFO     Received estimation request from ('127.0.0.1', 49422)
+2025-09-23 23:17:31 INFO     Submission 9e22ac6b8c4e45f3ac52fd6c94213377 received
+2025-09-23 23:17:31 INFO     Launching batch 3fded33ed9fc45c2880b07cb37fa76c6 using the SimulationLayer layer
+2025-09-23 23:17:31 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-23 23:43:50 INFO     Finished server request 3fded33ed9fc45c2880b07cb37fa76c6
+2025-09-23 23:48:03 INFO     Received estimation request from ('127.0.0.1', 35330)
+2025-09-23 23:48:03 INFO     Submission 5af20601d2bb4c40a5a1592548f327f1 received
+2025-09-23 23:48:03 INFO     Launching batch 18382981f01942aabd1326bb692ddc33 using the SimulationLayer layer
+2025-09-23 23:48:03 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 00:11:46 INFO     Finished server request 18382981f01942aabd1326bb692ddc33
+2025-09-24 00:18:35 INFO     Received estimation request from ('127.0.0.1', 40680)
+2025-09-24 00:18:35 INFO     Submission e51e1b2281a3493fa4d966676cb00ec7 received
+2025-09-24 00:18:35 INFO     Launching batch 4f03256d2c7a46a2894f99bfae945654 using the SimulationLayer layer
+2025-09-24 00:18:35 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 00:38:19 INFO     Finished server request 4f03256d2c7a46a2894f99bfae945654
+2025-09-24 00:39:04 INFO     Received estimation request from ('127.0.0.1', 50560)
+2025-09-24 00:39:04 INFO     Submission 87374436ec314132927b9b43c949627f received
+2025-09-24 00:39:04 INFO     Launching batch 7435c628a65e4e97875e378c4011ca8e using the SimulationLayer layer
+2025-09-24 00:39:04 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 00:58:32 INFO     Finished server request 7435c628a65e4e97875e378c4011ca8e
+2025-09-24 00:59:33 INFO     Received estimation request from ('127.0.0.1', 51692)
+2025-09-24 00:59:33 INFO     Submission a5ab7597fc6b4d93bec00a65171e06b3 received
+2025-09-24 00:59:33 INFO     Launching batch b3a0df6eb2eb446f9d7ac78fe8825748 using the SimulationLayer layer
+2025-09-24 00:59:33 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 01:19:03 INFO     Finished server request b3a0df6eb2eb446f9d7ac78fe8825748
+2025-09-24 01:19:59 INFO     Received estimation request from ('127.0.0.1', 58688)
+2025-09-24 01:20:00 INFO     Submission ea972222c2ff40f7af5872cdf012bc15 received
+2025-09-24 01:20:00 INFO     Launching batch 3b01fed95bfe4d83adc6775935c28818 using the SimulationLayer layer
+2025-09-24 01:20:00 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 01:39:44 INFO     Finished server request 3b01fed95bfe4d83adc6775935c28818
+2025-09-24 01:40:29 INFO     Received estimation request from ('127.0.0.1', 46436)
+2025-09-24 01:40:29 INFO     Submission 2a7477a5d7cd4abda9078dc372064943 received
+2025-09-24 01:40:29 INFO     Launching batch d379883ae2614c14a9a289b7c46f2f2f using the SimulationLayer layer
+2025-09-24 01:40:29 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 02:00:05 INFO     Finished server request d379883ae2614c14a9a289b7c46f2f2f
+2025-09-24 02:00:58 INFO     Received estimation request from ('127.0.0.1', 49864)
+2025-09-24 02:00:58 INFO     Submission e3115cdb0d1542eeb3a249c8975af77b received
+2025-09-24 02:00:58 INFO     Launching batch 511a0ad1981d452280149ff46c6cd505 using the SimulationLayer layer
+2025-09-24 02:00:58 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+2025-09-24 02:32:05 INFO     Finished server request 511a0ad1981d452280149ff46c6cd505
+2025-09-24 02:42:28 INFO     Received estimation request from ('127.0.0.1', 45598)
+2025-09-24 02:42:28 INFO     Submission 045dd758c496445aaf360d39db83a447 received
+2025-09-24 02:42:28 INFO     Launching batch 27bbe0bbdedb45d1ad91ef46c89127b6 using the SimulationLayer layer
+2025-09-24 02:42:28 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 03:02:16 INFO     Finished server request 27bbe0bbdedb45d1ad91ef46c89127b6
+2025-09-24 03:02:58 INFO     Received estimation request from ('127.0.0.1', 34106)
+2025-09-24 03:02:58 INFO     Submission ab01325020ef4af1900197bfd1e5588e received
+2025-09-24 03:02:58 INFO     Launching batch 94cf43a4176b4fbdb9533299d48f081a using the SimulationLayer layer
+2025-09-24 03:02:58 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 03:23:13 INFO     Finished server request 94cf43a4176b4fbdb9533299d48f081a
+2025-09-24 03:33:27 INFO     Received estimation request from ('127.0.0.1', 57816)
+2025-09-24 03:33:27 INFO     Submission e513d0f6cc4f497c88c3387901f92c73 received
+2025-09-24 03:33:27 INFO     Launching batch efbd77f5ab6c44cfa41c79384350d9f4 using the SimulationLayer layer
+2025-09-24 03:33:27 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 03:53:07 INFO     Finished server request efbd77f5ab6c44cfa41c79384350d9f4
+2025-09-24 03:53:49 INFO     Received estimation request from ('127.0.0.1', 51454)
+2025-09-24 03:53:49 INFO     Submission a158edcb1a96403b801590fad8b33dfc received
+2025-09-24 03:53:49 INFO     Launching batch 4b0aabcdcdda4d78abaa7107a9484925 using the SimulationLayer layer
+2025-09-24 03:53:49 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 04:13:32 INFO     Finished server request 4b0aabcdcdda4d78abaa7107a9484925
+2025-09-24 04:14:18 INFO     Received estimation request from ('127.0.0.1', 48928)
+2025-09-24 04:14:18 INFO     Submission 5208c834a55344cb85afb02fed9bd1b8 received
+2025-09-24 04:14:18 INFO     Launching batch 81538a89ed1445328eecbafdc1fcb1cf using the SimulationLayer layer
+2025-09-24 04:14:18 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 04:33:54 INFO     Finished server request 81538a89ed1445328eecbafdc1fcb1cf
+2025-09-24 04:34:47 INFO     Received estimation request from ('127.0.0.1', 58404)
+2025-09-24 04:34:47 INFO     Submission d011a1d8d4004b7b85c46839cb1026ea received
+2025-09-24 04:34:47 INFO     Launching batch 23ef8db7c4594d93a4dcaad4be6d69c0 using the SimulationLayer layer
+2025-09-24 04:34:47 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 04:54:23 INFO     Finished server request 23ef8db7c4594d93a4dcaad4be6d69c0
+2025-09-24 04:55:16 INFO     Received estimation request from ('127.0.0.1', 48062)
+2025-09-24 04:55:16 INFO     Submission 44ebc0232ab5436ba33038e1d2e017d2 received
+2025-09-24 04:55:16 INFO     Launching batch f2d114a8c1d04bdca05eabaf6aa5f3a7 using the SimulationLayer layer
+2025-09-24 04:55:16 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 05:12:56 INFO     Finished server request f2d114a8c1d04bdca05eabaf6aa5f3a7
+2025-09-24 05:15:44 INFO     Received estimation request from ('127.0.0.1', 39844)
+2025-09-24 05:15:44 INFO     Submission 72fcd5095ad342d08828fe30f36393e0 received
+2025-09-24 05:15:44 INFO     Launching batch 96ae55a9d57c44e79685a72b879fae6b using the SimulationLayer layer
+2025-09-24 05:15:44 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 05:35:09 INFO     Finished server request 96ae55a9d57c44e79685a72b879fae6b
+2025-09-24 05:36:13 INFO     Received estimation request from ('127.0.0.1', 35484)
+2025-09-24 05:36:13 INFO     Submission 8d401614ea5a46f4b54a99f01c296bbe received
+2025-09-24 05:36:13 INFO     Launching batch f7e545deb102433f8bb5b54cbec9f6f4 using the SimulationLayer layer
+2025-09-24 05:36:13 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+2025-09-24 06:01:54 INFO     Finished server request f7e545deb102433f8bb5b54cbec9f6f4
+2025-09-24 06:07:42 INFO     Received estimation request from ('127.0.0.1', 60396)
+2025-09-24 06:07:42 INFO     Submission b99d6ddb4bdb43a4bcd944a73bfe3b28 received
+2025-09-24 06:07:42 INFO     Launching batch b2ede2f9f1444bc8bd6d317297a51272 using the SimulationLayer layer
+2025-09-24 06:07:42 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 06:25:09 INFO     Finished server request b2ede2f9f1444bc8bd6d317297a51272
+2025-09-24 06:28:11 INFO     Received estimation request from ('127.0.0.1', 41254)
+2025-09-24 06:28:11 INFO     Submission 313eb6959aec4be78d3e38cae1d38d7e received
+2025-09-24 06:28:11 INFO     Launching batch 73af80dc98d0464ca28338dd88d5436e using the SimulationLayer layer
+2025-09-24 06:28:11 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 06:45:41 INFO     Finished server request 73af80dc98d0464ca28338dd88d5436e
+2025-09-24 06:48:41 INFO     Received estimation request from ('127.0.0.1', 50704)
+2025-09-24 06:48:41 INFO     Submission 05b7dc03974241649cdeaa6189421ba8 received
+2025-09-24 06:48:41 INFO     Launching batch 6249b6a6a9d242d9af3850656cdc72a4 using the SimulationLayer layer
+2025-09-24 06:48:41 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 07:06:01 INFO     Finished server request 6249b6a6a9d242d9af3850656cdc72a4
+2025-09-24 07:09:11 INFO     Received estimation request from ('127.0.0.1', 49552)
+2025-09-24 07:09:11 INFO     Submission 1d05295ce82140e9b7175cb39f79d4a5 received
+2025-09-24 07:09:11 INFO     Launching batch 7e133c36575642e3b366857504e7301c using the SimulationLayer layer
+2025-09-24 07:09:11 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 07:26:42 INFO     Finished server request 7e133c36575642e3b366857504e7301c
+2025-09-24 07:29:40 INFO     Received estimation request from ('127.0.0.1', 32940)
+2025-09-24 07:29:40 INFO     Submission 693a095cc83a483099855eb92a3eef73 received
+2025-09-24 07:29:40 INFO     Launching batch 2f7e8f3d2a5b4230938df4c424e58ed0 using the SimulationLayer layer
+2025-09-24 07:29:40 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 07:47:13 INFO     Finished server request 2f7e8f3d2a5b4230938df4c424e58ed0
+2025-09-24 07:50:10 INFO     Received estimation request from ('127.0.0.1', 48002)
+2025-09-24 07:50:10 INFO     Submission 44b4fcd7a3de4fde9f05e82aa22b14ed received
+2025-09-24 07:50:10 INFO     Launching batch eff119b84c2b4ca09a480c2e48c8f7b7 using the SimulationLayer layer
+2025-09-24 07:50:10 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 08:07:52 INFO     Finished server request eff119b84c2b4ca09a480c2e48c8f7b7
+2025-09-24 08:10:39 INFO     Received estimation request from ('127.0.0.1', 34932)
+2025-09-24 08:10:39 INFO     Submission 4dfecef78f014c92bcae4dce5058b784 received
+2025-09-24 08:10:39 INFO     Launching batch baeb561c059a4fe3ac74c73e04b17ca8 using the SimulationLayer layer
+2025-09-24 08:10:39 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 08:28:33 INFO     Finished server request baeb561c059a4fe3ac74c73e04b17ca8
+2025-09-24 08:31:08 INFO     Received estimation request from ('127.0.0.1', 52406)
+2025-09-24 08:31:08 INFO     Submission e47193cccc6a4e2597b8a64c1eb3074e received
+2025-09-24 08:31:08 INFO     Launching batch c2862a18e4f6458abd1044d6b33599a8 using the SimulationLayer layer
+2025-09-24 08:31:08 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 08:50:38 INFO     Finished server request c2862a18e4f6458abd1044d6b33599a8
+2025-09-24 08:51:38 INFO     Received estimation request from ('127.0.0.1', 50106)
+2025-09-24 08:51:38 INFO     Submission 90aeebe3aac945de8769916b4da40169 received
+2025-09-24 08:51:38 INFO     Launching batch c75c58d3ffdd43a4be5378f1d8405983 using the SimulationLayer layer
+2025-09-24 08:51:38 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 09:09:10 INFO     Finished server request c75c58d3ffdd43a4be5378f1d8405983
+2025-09-24 09:12:08 INFO     Received estimation request from ('127.0.0.1', 58364)
+2025-09-24 09:12:08 INFO     Submission 162c91cf137b4639b45845e5a7999727 received
+2025-09-24 09:12:08 INFO     Launching batch 2ee0257d91b5485b8b066308626ccd14 using the SimulationLayer layer
+2025-09-24 09:12:08 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#6X4:2]
+  Matched : [#6X4:1]-[#6X4:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Bonds
+  SMIRKS  : [#6X4:1]-[#1:2]
+  Matched : [#6X4:1]-[#1:2]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [*:1]~[#6X4:2]-[*:3]
+  Matched : [*:1]~[#6X4:2]-[*:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : Angles
+  SMIRKS  : [#1:1]-[#6X4:2]-[#1:3]
+  Matched : [#1:1]-[#6X4:2]-[#1:3]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : ProperTorsions
+  SMIRKS  : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+  Matched : [#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#1:1]-[#6X4]
+  Matched : [#1:1]-[#6X4]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+[DEBUG] MATCH FOUND:
+  Tag     : vdW
+  SMIRKS  : [#6X4:1]
+  Matched : [#6X4:1]
+---------------------------------------------------------------------------------
+2025-09-24 09:39:27 INFO     Finished server request 2ee0257d91b5485b8b066308626ccd14
+2025-09-24 09:43:44 INFO     Received estimation request from ('127.0.0.1', 33098)
+2025-09-24 09:43:44 INFO     Submission 1f9ed4c31f37479cacb2820e0667971c received
+2025-09-24 09:43:44 INFO     Launching batch a32583cbffc54ce38bbfd7e8a0171dc2 using the SimulationLayer layer
+2025-09-24 09:43:45 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 10:03:23 INFO     Finished server request a32583cbffc54ce38bbfd7e8a0171dc2
+2025-09-24 10:04:23 INFO     Received estimation request from ('127.0.0.1', 49386)
+2025-09-24 10:04:23 INFO     Submission 9a2698d0404c431da9ecd1f128ed29bd received
+2025-09-24 10:04:23 INFO     Launching batch 221322afc80c4e4abc547c607f2d6eb2 using the SimulationLayer layer
+2025-09-24 10:04:23 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 10:28:57 INFO     Finished server request 221322afc80c4e4abc547c607f2d6eb2
+2025-09-24 10:34:57 INFO     Received estimation request from ('127.0.0.1', 53042)
+2025-09-24 10:34:57 INFO     Submission ef11c931c00a4c839c445535527291f0 received
+2025-09-24 10:34:58 INFO     Launching batch 814c1ce1486444dca04032cce65d92ec using the SimulationLayer layer
+2025-09-24 10:34:58 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 10:57:27 INFO     Finished server request 814c1ce1486444dca04032cce65d92ec
+2025-09-24 11:05:27 INFO     Received estimation request from ('127.0.0.1', 50176)
+2025-09-24 11:05:27 INFO     Submission 1ad322822cb04a0dab0b8774993611f2 received
+2025-09-24 11:05:27 INFO     Launching batch 90930cbf7e284cd79e4596a1b418716a using the SimulationLayer layer
+2025-09-24 11:05:27 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 11:23:15 INFO     Finished server request 90930cbf7e284cd79e4596a1b418716a
+2025-09-24 11:25:56 INFO     Received estimation request from ('127.0.0.1', 45244)
+2025-09-24 11:25:56 INFO     Submission 6930f4a00933401f9e271d9c452bcbed received
+2025-09-24 11:25:56 INFO     Launching batch f935ecbfb0434e55a638d47d710b7759 using the SimulationLayer layer
+2025-09-24 11:25:56 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 11:45:26 INFO     Finished server request f935ecbfb0434e55a638d47d710b7759
+2025-09-24 11:46:35 INFO     Received estimation request from ('127.0.0.1', 43828)
+2025-09-24 11:46:35 INFO     Submission bb9e4a7029b041dda08a5b676dbd6be4 received
+2025-09-24 11:46:35 INFO     Launching batch 815a720b7e084fc2954fe57f5515c8d8 using the SimulationLayer layer
+2025-09-24 11:46:35 INFO     Building workflow 0 of 1
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+2025-09-24 12:06:04 INFO     Finished server request 815a720b7e084fc2954fe57f5515c8d8
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/core.py:285: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/data/homezvol0/mattt2/y/envs/co-optimization-cuda/lib/python3.11/site-packages/dask_jobqueue/slurm.py:55: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)

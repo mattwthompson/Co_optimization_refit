@@ -1,63 +1,54 @@
 #!/bin/bash
 
-# This worker script sets up and launches multiple parallel tasks on a SLURM cluster to work in conjunction with the master script for ff optimization
-echo "SLURM_JOB_NAME: $SLURM_JOB_NAME"
-
-# Reads the host and port details from host and optimize.in. These are necesary for work_queue_worker process to communicate with the master
 host=$(sed 1q host)
 port=$(awk '/port/ {print $NF}' optimize.in)
 
-# Debugging: Print host and port
-echo "Host: $host"
-echo "Port: $port"
+export SLURM_TMPDIR=/tmp
+export MYTMPDIR=/tmp/$USER
+export TMPDIR=$SLURM_TMPDIR/$SLURM_JOB_NAME
 
-# sage-2.2.1-sdata-core/
-USERNAME=$(whoami)
-#export SLURM_TMPDIR=/scratch/alpine/juho8819/co-optimization/tmp/tmp_worker
-export SLURM_TMPDIR=/scratch/alpine/juho8819/tmp
-export MYTMPDIR="${SLURM_TMPDIR}/${USERNAME}"
-export TMPDIR=$SLURM_TMPDIR
+mkdir $TMPDIR
+mkdir $MYTMPDIR
 
-# Ensure the temporary directory exists
-mkdir -p ${MYTMPDIR} || { echo "Failed to create MYTMPDIR"; exit 1; }
-
-# Dynamically calcualtes the number of workers and assigns resources for each worker job
-worker_num=$(squeue -u ${USERNAME} | grep wq -c)
+worker_num=$(squeue -u $USER | grep wq -c)
 ncpus=10
 
-
-mkdir -p worker-logs
-
 echo submitting worker $worker_num with $ncpus cpus on $host:$port
-conda_env="co-optimization-cuda"
+conda_env=$(sed 1q env.path)
 
 cmd=$(mktemp)
 cat << EOF > $cmd
 #!/usr/bin/env bash
 #SBATCH -J wq-$port
-#SBATCH --partition=blanca-shirts
-#SBATCH --qos=blanca-shirts
-#SBATCH --account=blanca-shirts
-#SBATCH -t 02:00:00
+#SBATCH -p standard
+#SBATCH -t 24:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=${ncpus}
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1G
-#SBATCH --array=1-50%2
+#SBATCH --array=1-300%30
+#SBATCH --account mattt2
 # SBATCH --export ALL
 #SBATCH -o worker-logs/worker-${worker_num}-%a.log
 
 export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 
-ml anaconda
 source $HOME/.bashrc
 
-mkdir -p ${MYTMPDIR}
+mkdir ${MYTMPDIR} -p
 cd $MYTMPDIR
 
+if [[ ! -d $conda_env ]]; then
+    compressed_env=/dfs9/dmobley-lab/$USER/envs/$conda_env.tar.gz
+    cp $compressed_env .
+    mkdir -p $conda_env
+    tar xzf $compressed_env -C $conda_env
+fi
+
 conda activate $conda_env
-export CUDA_VISIBLE_DEVICES=""
+
+sleep 300
 
 for i in \$(seq  \$SLURM_NTASKS ); do
         echo $i
@@ -69,8 +60,7 @@ done
 wait
 EOF
 
-# Submit worker job
-sbatch $@ $cmd
+# wait 10 min
 
-# Clean up temporary file
+sbatch $@ $cmd
 rm $cmd
